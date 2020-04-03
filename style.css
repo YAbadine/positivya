@@ -1,0 +1,78 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  --webkit-background-size: cover;
+  --moz-background-size: cover;
+  --o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  width: 15vw;
+  min-width: 120px;
+  max-width: 150px;
+  margin-bottom: 35px;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: #DD0058;
+  border-radius: 35px;
+  background-color: #DD0058;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo {
+  position: absolute;
+  width: 40%;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  padding: 10% 10%;
+}
+
+#headline {
+  text-align: center;
+}
+
+#btn {
+  text-align: center;
+}
+
+#btn { 
+  transition: all .15s ease-in-out; 
+}
+
+#btn:hover {
+  transform: scale(1.1); 
+}
+
+
